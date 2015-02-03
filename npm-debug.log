@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'bl' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'bl', null ]
+5 verbose cache add name=undefined spec="bl" args=["bl",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bl',
+6 verbose parsed url   path: 'bl',
+6 verbose parsed url   href: 'bl' }
+7 silly lockFile f55fb781-bl bl
+8 verbose lock bl /Users/jamescarter/.npm/f55fb781-bl.lock
+9 silly lockFile f55fb781-bl bl
+10 silly lockFile f55fb781-bl bl
+11 verbose addNamed [ 'bl', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f83e65ee-bl bl@
+14 verbose lock bl@ /Users/jamescarter/.npm/f83e65ee-bl.lock
+15 silly addNameRange { name: 'bl', range: '*', hasData: false }
+16 verbose request where is /bl
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 10d6970452c2234d
+19 verbose url raw /bl
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bl' ]
+21 verbose url resolved https://registry.npmjs.org/bl
+22 verbose request where is https://registry.npmjs.org/bl
+23 info trying registry request attempt 1 at 15:20:09
+24 verbose etag "C1N4WO5UX5RHIJJ21SFYE1V6N"
+25 http GET https://registry.npmjs.org/bl
+26 http 304 https://registry.npmjs.org/bl
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Tue, 03 Feb 2015 15:20:10 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Tue, 03 Feb 2015 15:19:54 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"C1N4WO5UX5RHIJJ21SFYE1V6N"',
+27 silly registry.get     age: '30',
+27 silly registry.get     'x-served-by': 'cache-lhr6321-LHR',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '2',
+27 silly registry.get     'x-timer': 'S1422976810.764088,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/bl from cache
+29 silly addNameRange number 2 { name: 'bl', range: '*', hasData: true }
+30 silly addNameRange versions [ 'bl',
+30 silly addNameRange   [ '0.0.0',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.8.1',
+30 silly addNameRange     '0.8.2',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '0.9.2',
+30 silly addNameRange     '0.9.3',
+30 silly addNameRange     '0.9.4' ] ]
+31 verbose addNamed [ 'bl', '0.9.4' ]
+32 verbose addNamed [ '0.9.4', '0.9.4' ]
+33 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
+34 verbose lock bl@0.9.4 /Users/jamescarter/.npm/a57792fd-bl-0-9-4.lock
+35 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+36 verbose lock https://registry.npmjs.org/bl/-/bl-0.9.4.tgz /Users/jamescarter/.npm/cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/bl/-/bl-0.9.4.tgz',
+37 verbose addRemoteTarball   '4702ddf72fbe0ecd82787c00c113aea1935ad0e7' ]
+38 info retry fetch attempt 1 at 15:20:10
+39 verbose fetch to= /var/folders/jv/j54ptc1x5l18kyy1cd1mb1lh0000gn/T/npm-20448-YORfLuDG/registry.npmjs.org/bl/-/bl-0.9.4.tgz
+40 http GET https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+41 http 200 https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+42 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+43 silly lockFile cdada86e-gistry-npmjs-org-bl-bl-0-9-4-tgz https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+44 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
+45 silly lockFile a57792fd-bl-0-9-4 bl@0.9.4
+46 silly lockFile f83e65ee-bl bl@
+47 silly lockFile f83e65ee-bl bl@
+48 error Error: EACCES, mkdir '/Users/jamescarter/.npm/bl/0.9.4'
+48 error  { [Error: EACCES, mkdir '/Users/jamescarter/.npm/bl/0.9.4']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/Users/jamescarter/.npm/bl/0.9.4' }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 14.1.0
+51 error command "node" "/usr/local/bin/npm" "install" "bl"
+52 error cwd /Users/jamescarter/james_coder/learnyounode
+53 error node -v v0.10.36
+54 error npm -v 1.4.28
+55 error path /Users/jamescarter/.npm/bl/0.9.4
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/Users/jamescarter/.npm/bl/0.9.4'
+59 verbose exit [ 3, true ]
